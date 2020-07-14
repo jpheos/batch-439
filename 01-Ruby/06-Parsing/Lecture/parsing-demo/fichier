@@ -1,0 +1,11 @@
+total 40
+drwxr-xr-x  10 jpheos  staff   320B Jul 14 10:02 .
+drwxr-xr-x   4 jpheos  staff   128B Jul 14 09:06 ..
+drwxr-xr-x  12 jpheos  staff   384B Jul 14 10:03 .git
+-rw-r--r--   1 jpheos  staff   259B Jul 14 09:45 api_demo.rb
+-rw-r--r--   1 jpheos  staff   668B Jul 14 09:35 csv_demo.rb
+drwxr-xr-x   7 jpheos  staff   224B Jul 14 09:37 data
+-rw-r--r--   1 jpheos  staff     0B Jul 14 10:03 fichier
+-rw-r--r--   1 jpheos  staff   703B Jul 14 09:38 json_demo.rb
+-rw-r--r--   1 jpheos  staff   323B Jul 14 09:41 nokogiri_demo.rb
+-rw-r--r--   1 jpheos  staff   463B Jul 14 10:01 scraping_demo.rb
