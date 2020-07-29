@@ -1,0 +1,42 @@
+.card {
+  width: 250px;
+}
+
+.card .card-white {
+  padding: 10px;
+  background: white;
+}
+
+.card .img-container {
+  height: 150px;
+  background-size: cover;
+}
+.card .img-container .btn {
+  margin: 15px;
+  display: none;
+}
+
+.card .card-white:hover .img-container .btn {
+  display: inline-block;
+}
+
+.card .card-user img {
+  width: 30px;
+  margin-right: 8px;
+}
+
+.card .card-white ul {
+  color: #bababa;
+  text-align: right;
+  padding-top: 10px;
+}
+
+.card .card-user {
+  display: flex;
+  align-items: center;
+  margin-top: 8px;
+}
+
+.card .card-user a {
+  color: #5f70ce;
+}

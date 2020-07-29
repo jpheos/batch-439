@@ -1,0 +1,64 @@
+/* --- Google Fonts --- */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:400,700");
+@import url("https://use.fontawesome.com/releases/v5.7.1/css/all.css");
+@import url("components/card.css");
+
+/* --- Fonts --- */
+body {
+  font-family: "Open Sans", "Helvetica", "sans-serif";
+  padding-bottom: 200px;
+  margin: 0;
+  background: #F4F4F4;
+
+
+  padding: 30px;
+}
+h1, h2, h3 {
+  font-family: "Poppins", "sans-serif";
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+.container {
+  margin: 0 auto;
+  max-width: 900px;
+  background: #F4F4F4;
+  display: flex;
+  justify-content: space-between;
+}
+
+.text-center {
+  text-align: center;
+}
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+  margin: 0;
+}
+.list-inline li {
+  display: inline-block;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.btn {
+  padding: 8px 14px;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+.btn-white {
+  background: white;
+  color: grey;
+  border: 1px solid #e4e4e4;
+}
+
+
+.btn-white:hover {
+  color: black;
+}
