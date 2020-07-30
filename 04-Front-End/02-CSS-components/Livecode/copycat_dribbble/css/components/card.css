@@ -1,0 +1,68 @@
+.card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 800px;
+  background: white;
+  padding: 14px 18px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px #00000057;
+}
+
+.card:hover {
+  box-shadow: 0px 4px 13px #00000097;
+}
+
+.card p, .card h3 {
+  margin: 0;
+  padding: 0;
+}
+
+.card h3 {
+  font-weight: 400;
+}
+
+.card .checkbox {
+  width: 24px;
+  height: 24px;
+  border: 1px solid lightgrey;
+  border-radius: 4px;
+}
+
+.card img {
+  height: 68px;
+}
+
+.card .actions {
+  color: lightgrey;
+  font-size: 1.6em;
+  display: flex;
+}
+
+.card .actions div {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card p {
+  color: lightgrey;
+}
+
+.card .actions div:first-child {
+  border-right: 1px solid #e6e6e6;
+}
+
+.fas:hover {
+  cursor: pointer;
+}
+
+.fa-trash:hover {
+  color: red;
+}
+
+.fa-pencil-alt:hover {
+  color: green;
+}
