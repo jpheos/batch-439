@@ -1,0 +1,12 @@
+.card-category {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  box-shadow: 1px 2px 5px 1px #000000a6;
+}
+
+.card-category h2 {
+  color: white;
+}
