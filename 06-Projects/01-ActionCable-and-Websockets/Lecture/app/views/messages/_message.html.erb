@@ -1,0 +1,7 @@
+<div class="message-container mb-3 lg:flex lg:items-center" id="message-<%= message.id %>">
+  <i class="author text-gray-700">
+    <span class="text-sm"><%= message.user.nickname %></span>
+    <small><%= message.created_at.strftime("%a %b %e at %l:%M%p") %></small>
+  </i>
+  <p><%= message.content %></p>
+</div>
