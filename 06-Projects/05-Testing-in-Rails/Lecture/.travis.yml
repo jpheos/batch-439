@@ -1,0 +1,15 @@
+language: ruby
+cache:
+  bundler: true
+  yarn: true
+sudo: required
+before_install:
+  - sudo apt-get update
+  - sudo apt-get install google-chrome-stable
+addons:
+  postgresql: '9.6'
+script:
+  - bundle exec rails db:create db:migrate
+  - bundle exec rake db:test:prepare
+  - bundle exec rake test
+  - bundle exec rake test:system
