@@ -12,8 +12,8 @@ GEM
       minitest (~> 5.1)
       tzinfo (~> 1.1)
       zeitwerk (~> 2.2)
-    amazing_print (1.2.1)
     ast (2.4.0)
+    awesome_print (1.9.2)
     backports (3.16.1)
     coderay (1.1.2)
     concurrent-ruby (1.1.6)
@@ -37,7 +37,7 @@ GEM
       rack
     rainbow (3.0.0)
     rake (13.0.1)
-    rexml (3.2.4)
+    rexml (3.2.5)
     rspec (3.9.0)
       rspec-core (~> 3.9.0)
       rspec-expectations (~> 3.9.0)
@@ -88,7 +88,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  amazing_print
+  awesome_print
   pry
   rake
   rspec
